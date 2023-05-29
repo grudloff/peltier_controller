@@ -15,7 +15,7 @@ Temperature controller side view           |  Temperature controller top view
 
 The control logic is performed by a microcontroller ($\mu$C). The information flow logic is displayed in the figure below. The polarity is set by comparing the target temperature and the ambient temperature setting the Peltier as a heater or cooler, respectively. The electrical power is controlled by a PWM signal of the microcontroller delivered to the H-Bridge. The PID updates the PWM values by looking at the difference between target temperatures and sensor temperatures. Separate PID parameters are set for cooling and heating.
 
-<p style="text-align:center">
+<p style="text-align:center;">
 <img src=imgs/controller_diagram.png width=300 alt="Information flow diagram of controller"></p>
 
 **Temperature controller components and schematic.**
@@ -27,5 +27,5 @@ The control logic is performed by a microcontroller ($\mu$C). The information fl
 | Microcontroller    | Arduino Uno R3    |                               |
 | Peltier            | TEC1-12706        | $V_{nom}=12V$, $I_{max}= 6.4A$ |
 
-<p style="text-align:center">
+<p style="text-align:center;">
 <img src=imgs/schematic.png width=500 alt="Controller circuit schematic"></p>
