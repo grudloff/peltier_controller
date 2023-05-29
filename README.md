@@ -13,7 +13,7 @@ Temperature controller side view           |  Temperature controller top view
 ![Temperature controller side view](imgs/temp_controler_side.png )          |  ![Temperature controller top view](imgs/temp_controler_top.png)
 
 
-The control logic is performed by a microcontroller ($\mu$C). The information flow logic is displayed in the figure below. The polarity is set by comparing the target temperature and the ambient temperature setting the Peltier as a heater or cooler, respectively. The electrical power is controlled by a PWM signal of the microcontroller delivered to the H-Bridge. The PID updates the PWM values by looking at the difference between target temperatures and sensor temperatures. Separate PID parameters are set for cooling and heating.
+The control logic is performed by a microcontroller ($\mu$<empty>C). The information flow logic is displayed in the figure below. The polarity is set by comparing the target temperature and the ambient temperature setting the Peltier as a heater or cooler, respectively. The electrical power is controlled by a PWM signal of the microcontroller delivered to the H-Bridge. The PID updates the PWM values by looking at the difference between target temperatures and sensor temperatures. Separate PID parameters are set for cooling and heating.
 
 <p align="center">
 <img src=imgs/controller_diagram.png width=400 alt="Information flow diagram of controller"></p>
