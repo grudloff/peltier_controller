@@ -8,8 +8,6 @@ A Peltier is a solid-state device that transfers heat from one face to the other
 
 In particular, we use the cooler of a CPU, as shown in the figure below. Thermal paste is added in the interface between the heatsink and the Peltier. A temperature sensor is positioned on the top face of the Peltier with the FBGs positioned next to it. Thermal paste is added to the interface between the sensors and the Peltier, and these are fixed to the Peltier by use of insulating tape.
 
-Certainly, here's an example of a usage section that you can include in a README file to help users understand how to use the Arduino code for the temperature control system:
-
 ## Usage
 
 This Arduino code provides a flexible and configurable temperature control system using Peltier devices and PID controllers. Below are instructions on how to use and interact with the system:
